@@ -9,6 +9,10 @@ $(document).ready(function() {
     $("body").addClass("light-background");
     $("body").addClass("dark-text");
   });
+  $("#highlight").click(function() {
+    $("#highlight").css("background-color", "lightblue");
+    $("#highlight").css("border", "solid", "2px", "black");
+  });
   // $("").click(function() {
     // $("body").addClass("light-text");
   // });
